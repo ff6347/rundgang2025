@@ -9,7 +9,90 @@
   "imageSize": 128,
   "commit": true,
   "commitConvention": "angular",
-  "contributors": [],
+  "contributors": [
+    {
+      "login": "finepung",
+      "name": "finepung",
+      "avatar_url": "https://avatars.githubusercontent.com/u/184867824?v=4",
+      "profile": "https://github.com/finepung",
+      "contributions": [
+        "review"
+      ]
+    },
+    {
+      "login": "ylva92",
+      "name": "ylva",
+      "avatar_url": "https://avatars.githubusercontent.com/u/184819918?v=4",
+      "profile": "https://github.com/ylva92",
+      "contributions": [
+        "review"
+      ]
+    },
+    {
+      "login": "Maple-Sarahp",
+      "name": "sarah",
+      "avatar_url": "https://avatars.githubusercontent.com/u/184856196?v=4",
+      "profile": "https://github.com/Maple-Sarahp",
+      "contributions": [
+        "review"
+      ]
+    },
+    {
+      "login": "LiSchwarz",
+      "name": "Linda Schwarz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/184842232?v=4",
+      "profile": "https://github.com/LiSchwarz",
+      "contributions": [
+        "review"
+      ]
+    },
+    {
+      "login": "kaltesommer",
+      "name": "Kirsten",
+      "avatar_url": "https://avatars.githubusercontent.com/u/184865094?v=4",
+      "profile": "https://github.com/kaltesommer",
+      "contributions": [
+        "review"
+      ]
+    },
+    {
+      "login": "Chrizz1nk",
+      "name": "Chrizz1nk",
+      "avatar_url": "https://avatars.githubusercontent.com/u/184868352?v=4",
+      "profile": "https://github.com/Chrizz1nk",
+      "contributions": [
+        "review"
+      ]
+    },
+    {
+      "login": "Johanna2612",
+      "name": "Johanna2612",
+      "avatar_url": "https://avatars.githubusercontent.com/u/184922207?v=4",
+      "profile": "https://github.com/Johanna2612",
+      "contributions": [
+        "review"
+      ]
+    },
+    {
+      "login": "Annagnb",
+      "name": "Annagnb",
+      "avatar_url": "https://avatars.githubusercontent.com/u/184842058?v=4",
+      "profile": "https://github.com/Annagnb",
+      "contributions": [
+        "review"
+      ]
+    },
+    {
+      "login": "nicolesophiebelger",
+      "name": "Nicole Sophie Belger",
+      "avatar_url": "https://avatars.githubusercontent.com/u/184855680?v=4",
+      "profile": "https://github.com/nicolesophiebelger",
+      "contributions": [
+        "review"
+      ]
+    }
+  ],
   "contributorsPerLine": 7,
-  "linkToUsage": true
+  "linkToUsage": true,
+  "commitType": "docs"
 }
