@@ -59,13 +59,13 @@ const briefingMap = Object.fromEntries(briefings.map((b) => [b.data.id, b]));
 					return (
 						<a
 							href={`#${briefing?.data.id}`}
-							class="project-list-card bg-white  shadow-md p-6 flex flex-col justify-between h-full hover:scale-105 transition-transform border-dashed border-black border-1 sparkle-target"
+							class="project-list-card bg-white  shadow-md p-6 flex flex-col h-full hover:scale-105 transition-transform border-dashed border-black border-1 sparkle-target"
 						>
 							<div class="decoration-0">
 								{briefing?.data.title || project.data.id}
 							</div>
 							<div>
-								<p class="text-sm text-left decoration-0 text-gray-600 dark:text-gray-300">
+								<p class="text-sm text-left decoration-0 text-gray-600 dark:text-gray-500 ">
 									{briefing?.data.description}
 								</p>
 							</div>
@@ -88,7 +88,9 @@ const briefingMap = Object.fromEntries(briefings.map((b) => [b.data.id, b]));
 										<h3 id={project.data.id}>{briefing.data.title}</h3>
 									)}
 									{briefing && briefing.data.description && (
-										<p class="italic pl-4">{briefing.data.description}</p>
+										<p class="italic pl-4 text-md">
+											{briefing.data.description}
+										</p>
 									)}
 									{briefing && briefing.rendered && (
 										<div set:html={briefing.rendered.html} />

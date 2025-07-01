@@ -7,7 +7,7 @@ if (!projectId) throw new Error('no id found');
 <color-visualization
 	id={`color-visualization-${projectId}`}
 	data-id={projectId}
-	class="border-b border-dashed border-black bg-white"
+	class="bg-white"
 	data-colors={JSON.stringify(projectColors)}></color-visualization>
 
 <script>
@@ -60,7 +60,12 @@ if (!projectId) throw new Error('no id found');
 				}
 
 				this.draw.size(width, height);
-				this.draw.node.style.transform = `rotate(${Math.random() * 3 - 1.5}deg)`;
+				this.draw.node.style.transform = `rotate(${Math.random() * 6 - 3}deg)`;
+				this.draw.node.style.transformOrigin = 'center';
+				this.draw.node.style.transformBox = 'fill-box';
+				this.draw.node.style.border = '1px dashed #000';
+
+				// this.draw.node.style.borderRadius = '0';
 
 				const r = 50;
 				const clamp = (min: number, max: number, x: number) =>
@@ -68,7 +73,7 @@ if (!projectId) throw new Error('no id found');
 				colorArr.forEach((c: any) => {
 					const randomx = clamp(15, width - 15, Math.random() * width * 0.5);
 					const randomy = clamp(15, height - 15, Math.random() * height);
-					const randomr = clamp(50, r, Math.random() * r * 2);
+					const randomr = clamp(20, r, Math.random() * r * 1.5);
 
 					// for (let j = 0; j < 30; j++) {
 					// Compromise between 20 and 50
@@ -86,7 +91,7 @@ if (!projectId) throw new Error('no id found');
 							.cy(randomy + Math.random() * 10 - 5)
 							.fill(c.hex || c.rgb || c)
 							.rotate(Math.random() * 360)
-							.opacity(0.5); // Lower opacity now that blend
+							.opacity(0.9); // Lower opacity now that blend
 					}
 					// }
 				});
@@ -113,6 +118,26 @@ if (!projectId) throw new Error('no id found');
 		height: auto;
 		transform: scale(1.25);
 		transform-origin: center;
+
+		border-radius: 0;
+	}
+
+	svg {
+		border: 1px dashed black;
+		border-radius: 0;
+	}
+
+	/* media queries */
+	@media (max-width: 1024px) {
+		color-visualization {
+			transform: scale(1.15);
+		}
+	}
+
+	@media (max-width: 480px) {
+		color-visualization {
+			transform: scale(1.25);
+		}
 	}
 
 	.color-viz-svg {

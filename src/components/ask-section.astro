@@ -243,6 +243,7 @@ const briefingsJson = JSON.stringify(briefings);
 	- ALWAYS STAY IN CHARACTER.
 	- GIVE CONCISE ANSWERS.
 	- DONT USE WORDS LIKE "delve" or "delved".
+	- DONT USE EM or EN DASHES!
 
 	- DONT LIST ALL PROJECTS. JUST SELECT SOME OF THEM.
 
@@ -504,19 +505,43 @@ const briefingsJson = JSON.stringify(briefings);
 			console.error('No sticky bar or sentinel found');
 			return;
 		}
+		if (!(stickyBar instanceof HTMLElement)) {
+			console.error('Sticky bar is not an HTMLElement');
+			return;
+		}
+
+		function updateSticky(
+			entry: IntersectionObserverEntry,
+			element: HTMLElement,
+		): void {
+			if (window.innerWidth > 767) {
+				if (entry.intersectionRatio < 1) {
+					element.classList.add('is-sticky');
+				} else {
+					element.classList.remove('is-sticky');
+				}
+			} else {
+				element.classList.remove('is-sticky');
+			}
+		}
 
 		const observer = new IntersectionObserver(
-			([entry]) => {
-				if (entry.intersectionRatio < 1) {
-					stickyBar.classList.add('is-sticky');
-				} else {
-					stickyBar.classList.remove('is-sticky');
-				}
-			},
+			([entry]) => updateSticky(entry, stickyBar),
 			{ threshold: [1] },
 		);
 
 		observer.observe(sentinel);
+
+		// Also update on resize
+		window.addEventListener('resize', () => {
+			// Fake an entry with intersectionRatio < 1 if sentinel is not fully visible
+			const rect = sentinel.getBoundingClientRect();
+			const fullyVisible =
+				rect.top >= 0 &&
+				rect.bottom <=
+					(window.innerHeight || document.documentElement.clientHeight);
+			updateSticky({ intersectionRatio: fullyVisible ? 1 : 0 });
+		});
 	});
 </script>
 
