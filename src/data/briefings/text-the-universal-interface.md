@@ -1,11 +1,11 @@
 ---
 id: text-the-universal-interface-grades-1748958867_clean
 title: Text, the Universal Interface
-description: An exploration of what can be achieved with text and APIs using large language models.
+description: An exploration of what can be achieved with text and APIs using large language models to overcome the limited metaphor of the chat interface.
 ---
   
 
-We prototyped speculative, text-based web applications and artworks that interact with users by sending their input—such as text, clicks, images, or real-time data—to large language models via APIs. The process began with researching LLMs, experimenting with different input modalities, and building small prototypes to explore possibilities and refine ideas.
+We prototyped speculative, text-based web applications and artworks that interact with users by sending their input as text, clicks, images, or real-time data to large language models via APIs. The process began with researching LLMs, experimenting with different input modalities, and building small prototypes to explore possibilities and refine ideas.
 
 After selecting a concept, we focused on implementing the core logic and user interactions, connecting various inputs to the language model API, and iterating on the data flow. The final deliverable was a polished, fully functional web project, accompanied by clear documentation, onboarding texts, and a license, showcasing what can be achieved when text becomes the universal interface.
 

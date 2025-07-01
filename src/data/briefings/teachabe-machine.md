@@ -1,7 +1,7 @@
 ---
 id: teachable-machine-grades-1748958849_clean
 title: Teachable Machine
-description: Using teachable machine to train an AI to recognize objects, sounds, or poses.
+description: Using teachable machine to train an AI to recognize objects, sounds, or poses for interactive web applications and artworks.
 ---
 
 

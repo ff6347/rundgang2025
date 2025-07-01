@@ -1,11 +1,11 @@
 ---
 id: nature-of-code-grades-1748958836_clean
 title: Excursion into the Nature of Code
-description: Based on https://natureofcode.com/ by Daniel Shiffmann
+description: An excursion to the edge of the country with explorations of natural patterns and behaviors. Based on "The Nature of Code" by Daniel Shiffmann
 ---
 
 
-We closely observed natural patterns and behaviors—such as animal movement, plant growth, or wave dynamics—during an excursion, focusing on how systems in nature evolve and interact. We documented our observations through notes, sketches, photos, and videos, paying special attention to the underlying rules and emergent phenomena.
+We closely observed natural patterns and behaviors like animal movement, plant growth, or wave dynamics during our excursion, focusing on how systems in nature evolve and interact. We documented our observations through notes, sketches, photos, and videos, paying special attention to the underlying rules and emergent phenomena.
 
 After returning, we selected one observation and created a p5.js sketch to simulate the behavior or structure we witnessed, using code as a tool to model and reinterpret natural processes. The project deliverables included a short blog-style documentation with visuals, the simulation code, and a reflection on both our observations and the translation of those patterns into code.
 

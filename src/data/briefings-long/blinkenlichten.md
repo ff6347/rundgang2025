@@ -8,7 +8,7 @@ description: A Physical Computing Project about blinking lights using Arduino by
 
 #### Objective
 
-Design and build an object that uses sensors to detect something from the world—motion, sound, time, distance, heat—and reacts through blinking lights. 
+Design and build an object that uses sensors to detect something from the world. Motion, sound, time, distance, heat, and reacts through blinking lights. 
 Your device should be visually cohesive, expressive, and mysterious: hide the tech, highlight the effect.
 
 

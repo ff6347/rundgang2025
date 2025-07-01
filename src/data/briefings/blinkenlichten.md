@@ -1,11 +1,11 @@
 ---
 id: blinkenlichten-grades-1748958812_clean
 title: Blinkenlichten
-description: A Physical Computing Project about blinking lights using Arduino by classic hacker culture, LEDs, and the art of interaction
+description: A Physical Computing Project about blinking lights using Arduino, LEDs, and the art of interaction in the physical world.
 ---
 
 
-We designed and built an interactive object that uses sensors to detect environmental input—such as motion, sound, or distance—and responds with expressive blinking lights. Our focus was on creating a visually cohesive and mysterious device, concealing the underlying technology to highlight the light effects. The process involved researching sensor types, brainstorming concepts, sketching ideas, and carefully selecting materials to achieve the desired visual impact.
+We designed and built an interactive object that uses sensors to detect environmental input such as motion, sound, or distance and responds with expressive blinking lights. Our focus was on creating a visually cohesive and mysterious device, concealing the underlying technology to highlight the light effects. The process involved researching sensor types, brainstorming concepts, sketching ideas, and carefully selecting materials to achieve the desired visual impact.
 
 We connected sensors to an Arduino, programmed the device to react to sensor input, and iterated on both the enclosure design and LED behavior. The final result was a polished, exhibition-ready object with reactive light patterns, accompanied by a short video demonstration, a concise write-up explaining its function and behavior, and complete documentation of the code and wiring.
 

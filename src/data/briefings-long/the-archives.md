@@ -8,7 +8,7 @@ description: Documenting a Semester of Digital Experiments University of Arts Br
 
 You've built things. You've broken things. You've coded, glitched, clicked, blinked, and drawn. Now it's time to reflect and document.
 
-Your task is to create a microsite that archives your projects from this semester: from analog algorithms to blinking lights. This is not just a collection—it's your own web-based exhibition.
+Your task is to create a microsite that archives your projects from this semester: from analog algorithms to blinking lights. This is not just a collection. It's your own web-based exhibition.
 
 #### Your Mission
 
@@ -26,7 +26,7 @@ algorithm/, interaction/, motion/, perspective/, physical-computing/
 - Create a landing page: index.html linking to all projects
 - Optional: about.html or reflection.html with your personal thoughts on the semester
 - Use folders for /css, /images, /js
-- Every page must be navigable—don't leave orphan files
+- Every page must be navigable. Don't leave orphan files
 
 ##### 3. Reflect
 
@@ -43,8 +43,8 @@ algorithm/, interaction/, motion/, perspective/, physical-computing/
 
 - Use reset.css and base.css to keep styles consistent
 - Own your code: if AI helped, make sure you understand what it does
-- Use semantic HTML—don't just slap <div>s everywhere
-- All links and scripts must work—test locally
+- Use semantic HTML. Don't just slap <div>s everywhere
+- All links and scripts must work. Test locally
 
 #### Deliverables
 
