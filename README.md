@@ -1,6 +1,6 @@
 # Rundgang 2025
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-17-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-18-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 This is the source for the project hub for the seminar "Fundamentals of Digital Communication" at the University of Arts Braunschweig. The projects are the results from the winter semester 2024/2025 and the summer semester 2025. See the [website](https://rundgang2025.qawsed.site) for more information.
@@ -99,6 +99,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     </tr>
     <tr>
       <td align="center" valign="top" width="25%"><a href="https://github.com/Paulineseemann"><img src="https://avatars.githubusercontent.com/u/184944469?v=4?s=256" width="256px;" alt="Paulineseemann"/><br /><sub><b>Paulineseemann</b></sub></a><br /><a href="#data-Paulineseemann" title="Data">🔣</a> <a href="https://github.com/ff6347/rundgang2025/pulls?q=is%3Apr+reviewed-by%3APaulineseemann" title="Reviewed Pull Requests">👀</a></td>
+      <td align="center" valign="top" width="25%"><a href="https://github.com/MaddyRethmeier"><img src="https://avatars.githubusercontent.com/u/184856962?v=4?s=256" width="256px;" alt="MaddyRethmeier"/><br /><sub><b>MaddyRethmeier</b></sub></a><br /><a href="#data-MaddyRethmeier" title="Data">🔣</a> <a href="https://github.com/ff6347/rundgang2025/pulls?q=is%3Apr+reviewed-by%3AMaddyRethmeier" title="Reviewed Pull Requests">👀</a></td>
     </tr>
   </tbody>
   <tfoot>
