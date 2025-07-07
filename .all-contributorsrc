@@ -164,6 +164,16 @@
         "data",
         "review"
       ]
+    },
+    {
+      "login": "Liana-Geo",
+      "name": "Liana-Geo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/184859521?v=4",
+      "profile": "https://github.com/Liana-Geo",
+      "contributions": [
+        "review",
+        "data"
+      ]
     }
   ],
   "contributorsPerLine": 4,
