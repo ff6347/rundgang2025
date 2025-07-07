@@ -4,12 +4,39 @@ import ColorVisualization from './color-visualization.astro';
 interface Row {
 	author: { id: string };
 	authors?: string[];
-	colors?: string[];
+	colors?: {
+		id: string;
+		imagePath: string;
+		dominantColor: {
+			rgb: [number, number, number];
+			hex: string;
+		};
+		colors: Array<{
+			rgb: [number, number, number];
+			hex: string;
+		}>;
+	} | null;
 	project_url: string;
 	project_title?: string;
 }
 
-const { rows, authorMap } = Astro.props as any;
+const { rows, authorMap } = Astro.props;
+
+const fallbackColors = {
+	id: 'fallback',
+	imagePath: '',
+	dominantColor: {
+		rgb: [0, 0, 0],
+		hex: '#000000',
+	},
+	colors: [
+		{ rgb: [0, 0, 0], hex: '#000000' },
+		{ rgb: [255, 255, 255], hex: '#FFFFFF' },
+		{ rgb: [250, 250, 250], hex: '#FAFAFA' },
+		{ rgb: [245, 245, 245], hex: '#F5F5F5' },
+		{ rgb: [200, 200, 200], hex: '#C8C8C8' },
+	],
+};
 ---
 
 <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -55,13 +82,9 @@ const { rows, authorMap } = Astro.props as any;
 			}
 			return (
 				<div class="bg-white text-black border border-dashed border-black shadow p-4 flex flex-col text-left h-full relative">
-					{row.colors ? (
-						<div class="mb-2 flex justify-center w-full overflow-visible relative bg-gray-50">
-							<ColorVisualization colors={row.colors} />
-						</div>
-					) : (
-						<div class="w-10 h-10 bg-gray-200 mb-2 flex">no col</div>
-					)}
+					<div class="mb-2 flex justify-center w-full overflow-visible relative bg-gray-50">
+						<ColorVisualization colors={row.colors ?? fallbackColors} />
+					</div>
 					<a
 						href={row.project_url}
 						target="_blank"
