@@ -184,6 +184,16 @@
         "data",
         "review"
       ]
+    },
+    {
+      "login": "MaddyRethmeier",
+      "name": "MaddyRethmeier",
+      "avatar_url": "https://avatars.githubusercontent.com/u/184856962?v=4",
+      "profile": "https://github.com/MaddyRethmeier",
+      "contributions": [
+        "data",
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 4,
