@@ -19,9 +19,9 @@
 		"tailwindcss": "4.1.8"
 	},
 	"devDependencies": {
-		"@types/node": "24.5.2",
+		"@types/node": "24.7.0",
 		"csv-parse": "5.6.0",
 		"node-vibrant": "4.0.3",
-		"playwright": "1.55.1"
+		"playwright": "1.56.0"
 	}
 }
