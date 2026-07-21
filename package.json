@@ -12,11 +12,11 @@
 		"broken-links": "npx linkinator https://rundgang2025.qawsed.site --format CSV > bin/broken-links.csv"
 	},
 	"dependencies": {
-		"@svgdotjs/svg.js": "3.2.4",
-		"@tailwindcss/vite": "4.1.8",
-		"animejs": "4.0.2",
+		"@svgdotjs/svg.js": "3.2.5",
+		"@tailwindcss/vite": "4.3.2",
+		"animejs": "4.5.0",
 		"astro": "^5.8.1",
-		"tailwindcss": "4.1.8"
+		"tailwindcss": "4.3.2"
 	},
 	"devDependencies": {
 		"@types/node": "24.13.2",
